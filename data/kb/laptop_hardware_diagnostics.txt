@@ -1,0 +1,137 @@
+LAPTOP AND WINDOWS HARDWARE DIAGNOSTIC GUIDE
+
+CAMERA AND WEBCAM
+Problem: Camera not working, not detected, or unavailable in a meeting app.
+Symptoms: Blank camera preview, privacy message, camera missing from an app.
+Possible causes: Camera privacy switch, app permission, another app using it, driver, camera hardware.
+Diagnostic questions: Is the camera built in or USB? Does Windows Camera show a picture? Is camera access on?
+Safe check: Open Settings > Privacy & security > Camera. Check Camera access and the permission for the affected app. Close other video-call apps and test in Windows Camera.
+Expected result: A picture means the camera itself is working and the original app needs checking. If Camera is missing in Device Manager, Windows may not detect it.
+Next step: Check Device Manager > Cameras and read the device status. Do not uninstall the device.
+Escalation: Contact IT if a built-in camera remains missing or reports an error after checking permission.
+
+BLUETOOTH
+Problem: Bluetooth will not turn on or an accessory will not connect.
+Symptoms: Bluetooth switch missing, accessory not listed, or pairing fails.
+Possible causes: Bluetooth is off, accessory battery is low, pairing needs attention, adapter/driver issue.
+Diagnostic questions: Is Bluetooth shown and on? Is the accessory charged and listed? Does another accessory connect?
+Safe check: Open Settings > Bluetooth & devices. Turn Bluetooth on if it is off and check the accessory status.
+Expected result: The accessory should show Connected. If Bluetooth is missing from Settings, check Device Manager for its adapter or a warning.
+Next step: If it is on but the accessory will not connect, check charge and whether it appears in the device list before pairing again.
+Escalation: Ask IT to check an adapter that is missing or has a warning.
+
+GPU, NVIDIA, AMD, AND INTEL GRAPHICS
+Problem: Graphics card is missing, shows a warning, or a game uses the wrong graphics device.
+Symptoms: NVIDIA/AMD card absent, yellow warning, low graphics performance.
+Possible causes: Windows is not detecting the card, driver issue, or the app is using another graphics device.
+Diagnostic questions: What appears under Device Manager > Display adapters? Is there a warning? Which GPU is active in Task Manager while the app runs?
+Safe check: Open Device Manager > Display adapters and read the names. Do not uninstall drivers or change BIOS settings.
+Expected result: A listed card with no warning is detected. A warning suggests Windows has a device or driver problem. Task Manager GPU activity helps show what an app uses.
+Next step: Check Task Manager > Performance while the app is running. For app choice, review Settings > System > Display > Graphics before making a change.
+Escalation: Ask IT to review a missing card or Device Manager error, especially after an update.
+
+SSD, HARD DRIVE, AND STORAGE SPACE
+Problem: Drive is nearly full, slow, or missing.
+Symptoms: Low-space warning, slow file access, drive absent in File Explorer.
+Possible causes: Files use available space, an app is using the disk heavily, or Windows cannot detect the drive.
+Diagnostic questions: How many GB are free? Which Storage category is largest? Does the drive appear in Disk Management?
+Safe check: Open Settings > System > Storage to see free space and categories. Review only files you recognize. Never delete Windows, Program Files, driver, or boot folders.
+Expected result: Storage shows used and free space. A percentage alone does not prove there is a problem; for example, 75% full still leaves about 25% free.
+Next step: If a drive is missing, look in Disk Management without changing partitions. If Windows asks to initialize or format it, cancel and contact IT because this could affect files.
+Escalation: Escalate a missing internal drive, disk error, or initialize/format prompt.
+
+RAM AND SLOW PERFORMANCE
+Problem: Laptop is slow or memory use is high.
+Symptoms: Apps respond slowly or Task Manager shows high CPU, Memory, or Disk use.
+Possible causes: One app is busy, many apps are open, an update is running, or storage is low.
+Diagnostic questions: Which Task Manager column is high? What app is at the top? Did it start after an update?
+Safe check: Press Ctrl + Shift + Esc. In Processes, click CPU, Memory, or Disk to sort by that column. Save work before closing an app.
+Expected result: The app at the top is using the most of that resource at the moment. Do not assume RAM is the cause without checking.
+Next step: Note the app name and check Windows Update status if the problem began after an update.
+Escalation: Escalate repeated freezes, crashes, or high use from an unclear Windows process.
+
+BATTERY, CHARGING, AND POWER ADAPTER
+Problem: Battery drains fast, will not charge, or laptop shuts down on battery.
+Symptoms: No charging icon, charge stuck, sudden shutdown, short battery life.
+Possible causes: Loose charger, outlet or adapter issue, heavy app use, worn battery.
+Diagnostic questions: Does Windows show charging? Is the charger light on? Does the battery look swollen or smell unusual?
+Safe check: Check charger connections and try a different wall outlet. Review battery saver and power mode. Do not open the laptop or remove its battery.
+Expected result: Charging icon or light indicates power is reaching the laptop. Fast drain during light use may point to battery wear.
+Next step: If safe and compatible, compare with another approved charger. Never force the plug.
+Escalation: Stop use and charging and get urgent help for swelling, unusual smell, or excess heat.
+
+OVERHEATING AND FAN
+Problem: Laptop is unusually hot, fan is loud, or it shuts down.
+Symptoms: Heat, loud fan, slowdown, shutdown under load.
+Possible causes: Blocked airflow, heavy app use, or cooling/battery fault.
+Diagnostic questions: Are vents blocked? Is the fan running? Does it happen with one app or all the time?
+Safe check: Put laptop on a hard, flat surface with vents clear. Close apps you recognize and are not using.
+Expected result: It should cool and stay on. Do not open the laptop or clean internal parts yourself.
+Next step: If still hot, stop demanding work and contact IT for service.
+Escalation: Stop use for severe heat, repeated shutdown, swelling, or burning smell.
+
+KEYBOARD, TOUCHPAD, AND MOUSE
+Problem: Keyboard keys, touchpad, or mouse do not respond.
+Symptoms: One key fails, pointer does not move, external mouse disconnects.
+Possible causes: Touchpad setting off, loose connection, low battery, app issue, or driver/device problem.
+Diagnostic questions: Is one key or the whole device affected? Does an external device work? Does it fail outside one app?
+Safe check: For touchpad, check Settings > Bluetooth & devices > Touchpad. For separate devices, reconnect or check batteries; try another USB port for a wired mouse.
+Expected result: If an external device works but the built-in one does not, the built-in device or its setting is more likely.
+Next step: Check Device Manager > Keyboards or Mice and other pointing devices for a warning. Do not uninstall the device.
+Escalation: Ask IT to check a built-in device missing from Device Manager or showing an error.
+
+USB, HDMI, ETHERNET, AND PORTS
+Problem: Connected device, monitor, or network cable is not detected.
+Symptoms: No USB device, external display not found, Ethernet disconnected.
+Possible causes: Loose cable, accessory fault, port issue, or driver problem.
+Diagnostic questions: Does another port or known working cable work? Is the accessory powered? Is there visible damage?
+Safe check: Reconnect without forcing the plug. Try one other port or known good cable if available.
+Expected result: If it works on another port/cable, the first connection may be faulty. This alone does not mean the motherboard is damaged.
+Next step: Check Device Manager for a warning if no port works. Do not insert objects into ports.
+Escalation: Ask IT to inspect a damaged port or a device that remains undetected after safe checks.
+
+DISPLAY, BLACK SCREEN, AND FLICKERING
+Problem: Laptop screen is black, flickers, or external monitor is missing.
+Symptoms: No image, brightness issue, flicker, external display not detected.
+Possible causes: Power/brightness, dock/cable, display setting, graphics driver, or panel damage.
+Diagnostic questions: Is there a startup logo? Does an external screen work? Is the panel physically damaged?
+Safe check: Check power and brightness. Disconnect a dock/external display and check the built-in screen. Do not press on a damaged panel.
+Expected result: If the laptop shows a startup logo but goes black in Windows, software or graphics settings may be involved. Physical cracks point to hardware damage.
+Next step: Record when flicker occurs and whether it happens before Windows starts.
+Escalation: Escalate physical damage, persistent black screen, or repeated graphics failure.
+
+AUDIO, MICROPHONE, SPEAKERS, AND HEADPHONES
+Problem: No sound, microphone not detected, or headphones do not work.
+Symptoms: Silent output, wrong speaker selected, no input level, app cannot access mic.
+Possible causes: Mute, wrong device, privacy permission, app volume, connection, or driver issue.
+Diagnostic questions: Is the correct device selected? Does sound work through headphones? Does microphone input level move?
+Safe check: Check speaker volume/output in Quick Settings. Check Settings > Privacy & security > Microphone for app permission. For no sound, compare headphones and built-in speakers.
+Expected result: Headphones working while speakers are silent points to the speaker path. A moving input level means the microphone is detected.
+Next step: Try one approved app and note whether another app works.
+Escalation: Ask IT to check a missing audio device or driver warning.
+
+WINDOWS UPDATE, DRIVER, APPLICATION, AND BLUE SCREEN
+Problem: Issue began after an update, an app crashes, or Windows shows a blue screen.
+Symptoms: Slow after update, repeat app crash, restart, stop code, driver warning.
+Possible causes: Update still completing, app issue, driver change, or hardware fault.
+Diagnostic questions: When did it start? What update/error/stop code appears? One app or several?
+Safe check: Read Windows Update status and Device Manager status. Record the app name and exact error. Let an update finish; do not force power off during installation.
+Expected result: An update may show installing, restart required, or an error. A blue-screen stop code helps IT identify what failed.
+Next step: Save work and restart only if Windows requests it and is not installing. Do not roll back or reinstall a driver without IT guidance.
+Escalation: Escalate repeated blue screens, restart loops, or an update that remains stuck.
+
+WI-FI, ETHERNET, AND VPN
+Problem: Connected to Wi-Fi but no internet, network adapter missing, or VPN fails.
+Symptoms: Websites fail, other devices affected, adapter warning, VPN error.
+Possible causes: Shared internet outage, device setting, website lookup, or VPN service/account.
+Diagnostic questions: Does a phone on the same Wi-Fi open a site? Do other sites work? Is VPN on? Is Wi-Fi adapter listed in Device Manager?
+Safe check: Compare another device on the same Wi-Fi. For adapter status, open Device Manager > Network adapters and look for a warning. Never share VPN password or MFA code.
+Expected result: If other devices also fail, shared network is more likely. If only this laptop fails, check its VPN, adapter, and more than one website.
+Next step: Record the exact VPN or adapter error. Do not reset a router or network settings without authorization.
+Escalation: Report a shared outage or missing adapter to IT/network support.
+
+DEVICE MANAGER STATUS
+Normal: Device is listed with no warning; this means Windows currently sees it, not that every function is proven.
+Yellow warning: Windows reports a device or driver issue. Read Device status and share the wording; do not uninstall the device.
+Missing device: It may be disabled, disconnected, unsupported, missing a driver, or have hardware failure. Check Settings and safe connections before concluding it is broken.
+Unknown device: Windows sees something but cannot identify it. Ask IT to identify it from Device Manager details.

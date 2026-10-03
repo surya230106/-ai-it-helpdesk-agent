@@ -1,0 +1,87 @@
+DIAGNOSTIC CHECKS: PROBLEM, CAUSE, CHECK, RESULT, NEXT ACTION
+
+PRINTER CONNECTED BUT NOT PRINTING
+Symptoms: The printer appears connected or Ready, but no page comes out.
+Likely causes: A waiting print job, the wrong printer selected, or a printer error. If it says Ready, a network connection is less likely to be the first problem.
+Check: Open Start > Settings > Bluetooth & devices > Printers & scanners. Select the printer and open its queue.
+Expected result: The queue shows waiting documents, an empty list, or an error.
+Next action: If a known job is stuck, cancel only that job. If the list is empty, check the printer name selected in the document's Print window. If there is an error, record its exact wording. Then print a test page.
+Escalate: If a test page fails with a hardware warning, or no users can print, contact IT with printer model, status, and checks already tried.
+
+WI-FI CONNECTED BUT INTERNET DOES NOT WORK
+Symptoms: Wi-Fi says Connected but websites do not open.
+Likely causes: A network outage affecting all devices, or a setting limited to one device. A website name lookup or VPN may also be involved.
+Check: Try a familiar website on a second device connected to the same Wi-Fi.
+Expected result: The second device either opens the website or cannot get online.
+Next action: If the second device works, focus on the affected computer and check whether more than one website fails. If it also fails, check for an internet warning on the router and report a possible shared outage. Do not factory reset the router.
+Escalate: If many people are affected or a work network is down, report the affected location and number of users.
+
+WINDOWS SLOW AFTER UPDATE
+Symptoms: The computer became slow after Windows Update.
+Likely causes: Windows may still be completing work, or one app or system resource may be busy.
+Check: Press Ctrl + Shift + Esc to open Task Manager. Look at CPU, Memory, and Disk.
+Expected result: One resource may stay near 100%, or all may remain at ordinary levels.
+Next action: If one is high, sort that column and note the app at the top. If none is high, check Windows Update status and free storage. Save work before restarting. Do not uninstall a driver or interrupt an update without IT guidance.
+
+OUTLOOK CANNOT SEND
+Symptoms: Outlook freezes or a message does not send.
+Likely causes: An app issue, a connection or mail service issue, or a message waiting in Outbox.
+Check: Open company email in a browser and view the inbox. Do not resend the same message until checking delivery.
+Expected result: Web email either works or shows an error too.
+Next action: If web email works, check Outlook Outbox and its exact error. If web email also fails, check the account or mail service with the administrator.
+
+BROWSER OR WEBSITE WILL NOT OPEN
+Symptoms: One browser or website fails to open.
+Likely causes: If another browser opens the site, an extension or saved site data may be involved. If no browser opens any site, check network access.
+Check: Try one familiar site in a different browser.
+Expected result: It either opens or fails in both browsers.
+Next action: If it opens in another browser, try a private window in the affected browser. If all sites fail everywhere, check whether other devices have internet.
+
+LOGIN OR COMPANY PORTAL FAILURE
+Symptoms: Sign-in fails on a company service.
+Likely causes: An account lock, network or VPN requirement, sign-in service issue, or missing permission.
+Check: Read the exact sign-in error. Never share a password or MFA code.
+Expected result: The message may mention account lock, network, or access permission.
+Next action: Connect to required company VPN if the message mentions network. Ask an administrator to check lockout or permissions if it mentions the account. Provide the wording, not any secret.
+
+LAPTOP OVERHEATING
+Symptoms: The laptop is very hot, fan is loud, or it shuts down.
+Likely causes: Blocked airflow, heavy app use, or a cooling/battery fault.
+Check: Place it on a hard flat surface with vents clear and close demanding apps.
+Expected result: It should cool and remain on.
+Next action: If it remains very hot or shuts down, power it off and contact IT. If the battery is swollen or smells unusual, stop using it and seek support promptly.
+
+NO SOUND
+Symptoms: No sound from speakers or headset.
+Likely causes: Muted volume, wrong output selected, disconnected headset, or an audio device problem.
+Check: Click the speaker icon and check mute, volume, and selected speaker.
+Expected result: The intended speaker is selected and not muted.
+Next action: Test a sound. If settings are right but all apps are silent, contact IT with the computer model.
+
+KEYBOARD OR MOUSE NOT RESPONDING
+Symptoms: A key or pointer does not respond.
+Likely causes: Loose connection, empty battery, or a device/driver fault.
+Check: Reconnect it or check battery. For a built-in laptop device, test a separate one if available.
+Expected result: The separate device either works or also fails.
+Next action: If separate input works, the built-in device may need service. Report which devices were tested.
+
+LOW DISK SPACE
+Symptoms: Windows reports little free space.
+Likely causes: Temporary files or personal files use most of the drive.
+Check: Open Settings > System > Storage and see which group is largest.
+Expected result: Storage settings show what is taking space.
+Next action: Use Windows Storage cleanup for items you recognize. Do not manually delete Windows or Program Files folders. Ask IT before removing work files.
+
+APPLICATION CRASH
+Symptoms: One app closes or freezes.
+Likely causes: An app-specific fault, a file/action issue, or a recent update.
+Check: Note the app name and whether it closes at launch or after one action. Record the exact error.
+Expected result: The failure is limited to one app or happens across several.
+Next action: If one app is affected, save work, restart that app once, and check for an approved update. If several apps fail, contact IT with the time and error.
+
+DNS AND WEBSITE NAME LOOKUP
+Symptoms: Internet appears connected but website names fail to open.
+Likely causes: A DNS lookup problem is possible, but a wider connection failure must be ruled out first.
+Check: Try a second familiar website and compare with another device on the same network.
+Expected result: Other devices/sites either work or fail too.
+Next action: If only one computer is affected, Windows can clear its saved DNS lookups with `ipconfig /flushdns`. This does not fix an internet or DNS server outage. Ask IT for help if you do not have permission to run it.

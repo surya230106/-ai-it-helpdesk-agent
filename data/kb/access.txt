@@ -1,0 +1,10 @@
+LOGIN AND ACCESS TROUBLESHOOTING
+
+For login or access failures:
+1. Confirm the username is correct without asking for the password.
+2. Look for account-lock or access-denied messages.
+3. Confirm the device has network/VPN access.
+4. Retry after restarting the browser or clearing a stale session when appropriate.
+5. Escalate permission changes, identity verification, or locked-account cases to an administrator.
+
+Never request passwords or MFA codes.

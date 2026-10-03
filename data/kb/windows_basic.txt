@@ -1,0 +1,11 @@
+WINDOWS BASIC TROUBLESHOOTING
+
+For a slow Windows laptop:
+1. Restart the device.
+2. Open Task Manager and check CPU, Memory, and Disk usage.
+3. Check Windows Update and device driver updates.
+4. Remove unnecessary startup applications.
+5. Identify whether one application is responsible.
+6. Escalate if crashes, blue screens, data loss, or repeated boot failures occur.
+
+Never delete system folders or disable endpoint security as a first step.

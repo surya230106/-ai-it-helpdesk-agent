@@ -1,0 +1,9 @@
+PRINTER TROUBLESHOOTING
+
+For a printer that is online but not printing:
+1. Confirm power and connection.
+2. Confirm the correct printer is selected.
+3. Open the print queue and remove stuck jobs when appropriate.
+4. Restart the Print Spooler service if authorized.
+5. Print a test page.
+6. Escalate if multiple users cannot print or hardware errors appear.

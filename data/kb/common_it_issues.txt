@@ -1,0 +1,43 @@
+COMMON IT SUPPORT GUIDE
+
+WINDOWS UPDATE AND PERFORMANCE
+After an update, a Windows computer may be slower while background setup completes. Save work and restart once. In Task Manager, check whether CPU, Memory, or Disk remains unusually busy. Review update status and recent driver changes. Do not remove drivers or disable security without IT guidance. Escalate repeated crashes, blue screens, or startup failures.
+
+CHROME AND BROWSER
+If Chrome will not open, restart the computer and try opening a private window or another browser. If only one site fails, test another site. If another browser works, disable recently added extensions and clear data for the affected site. Do not reset a managed browser before checking with IT.
+
+OUTLOOK EMAIL
+If Outlook freezes while sending, check whether the message remains in Outbox and record any error. Try Outlook on the web to separate an app problem from a mail service or account problem. Check connectivity and available mailbox space. Do not repeatedly resend a message until confirming it was not delivered.
+
+NO SOUND
+Check mute, volume, output device selection, headset connections, and whether another application can play sound. If no audio device appears after reconnecting or restarting, provide the device model and contact IT about the audio driver.
+
+KEYBOARD OR MOUSE
+Reconnect the device, try a different USB port, and check batteries or wireless receiver for wireless devices. Test another keyboard or mouse if available. For built-in laptop devices, report whether an external device works and whether the problem started after an update.
+
+BLACK SCREEN
+Check power, brightness, and display connections. Disconnect docks or external monitors to isolate the built-in screen. On Windows, Windows+Ctrl+Shift+B can reset the graphics driver. If the screen stays black after restart, report whether the startup logo appears. Stop and contact support if there are signs of physical damage.
+
+OVERHEATING
+Use the laptop on a hard surface with vents clear. Close demanding applications and check whether the fan is obstructed. If the computer repeatedly shuts down, becomes unusually hot, or has a battery swelling or burning smell, power it off and contact support promptly.
+
+VPN
+First confirm ordinary internet access works. Check that the correct organization VPN profile is selected and note the exact error. Reconnect once and verify system date and time. Do not share passwords or MFA codes. If many users cannot connect, report a possible shared service outage.
+
+DISK SPACE
+Check free space in Windows Settings > System > Storage. Review temporary files using Windows Storage settings before deleting. Move personal files only to approved storage. Never delete Windows, Program Files, or unfamiliar system folders to free space.
+
+APPLICATION CRASHES
+Record the application name, exact error, time, and action that triggered the crash. Determine whether it happens for one file or all files. Save work, restart the application, and check for an approved update. Include these details when contacting IT.
+
+UNEXPECTED RESTARTS
+Save work and note the time, recent updates, and any stop code. Check whether the device feels unusually hot and whether restarts happen under a particular workload. Repeated restarts, blue screens, or possible data loss should be escalated with the stop code; do not repeatedly interrupt updates.
+
+WINDOWS SERVICE
+To restart a Windows service, open Services only if your account is authorized, locate the exact service name, and use Restart. Some services cannot be stopped or require administrator rights. Do not change startup type or stop security, encryption, or management services; ask IT if access is denied or the service is unclear.
+
+SECURITY AND PHISHING
+Do not open suspicious attachments or links. Report the message using the organization's approved reporting method. If credentials may have been entered on a suspicious site, contact IT immediately using a known trusted channel. Never send passwords or MFA codes in a ticket or chat.
+
+DNS
+DNS translates website names into network addresses. If only name lookups fail, Windows can clear its local DNS cache with `ipconfig /flushdns` in Command Prompt. This does not repair an internet outage or a DNS server outage. If other devices are affected too, contact the network administrator.

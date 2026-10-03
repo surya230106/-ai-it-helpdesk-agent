@@ -1,0 +1,13 @@
+NETWORK TROUBLESHOOTING GUIDE
+
+Symptoms: connected to Wi-Fi but no internet, DNS errors, intermittent access, VPN connectivity problems.
+
+Safe checks:
+1. Confirm whether another device can access the same network.
+2. Reconnect to Wi-Fi or reseat Ethernet.
+3. Restart the affected device if safe.
+4. Test a known website to distinguish local app problems from network problems.
+5. Check VPN/proxy settings when organization access is affected.
+6. If many users are affected, escalate as a possible shared network outage.
+
+Do not ask users to provide passwords, MFA codes, private keys, or other secrets.
